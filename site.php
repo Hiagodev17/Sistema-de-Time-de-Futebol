@@ -22,6 +22,11 @@
 	</head>
 	
     <body>
+		<form method="post" action="buscaDados.php">
+			<label>Digite o nome do jogador: </label>
+			<input type="text" name="nomeJogador" size="20"><br><br>
+			<input type="submit" value="BUSCAR">
+		</form>
 		<?php
 			// iniciar uma sessão
 			session_start();
